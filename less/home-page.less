@@ -1,4 +1,12 @@
 .home {
+  header {
+    height: @header-height;
+    border-bottom: 3px dashed #ccc;
+    .flex();
+    .logo {
+      width: @logo-width;
+    }
+  }
 
   .content-section {
     margin: 30px 0;
@@ -6,8 +14,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
 
-   
-    
     .text-content {
       width: 48%;
       padding-right: 1%;
@@ -58,4 +64,4 @@
       margin-bottom: 30px;
     }
   }
-}// home
+} // home
