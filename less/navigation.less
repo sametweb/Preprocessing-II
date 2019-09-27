@@ -1,6 +1,10 @@
 .menu {
   width: @menu-width;
   .flex();
+  @media @mobile {
+    width: 100%;
+    justify-content: space-around;
+  }
 
   .item {
     color: black;
