@@ -134,14 +134,14 @@ html {
 }
 html,
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 h1,
 h2,
 h3,
 h4,
 h5 {
-  font-family: 'Indie Flower', cursive;
+  font-family: "Indie Flower", cursive;
 }
 h1 {
   font-size: 4rem;
@@ -191,16 +191,27 @@ img {
   font-size: 1.6rem;
   padding: 20px;
 }
-.home header {
-  height: 70px;
+header {
   border-bottom: 3px dashed #ccc;
+}
+header .header-area {
+  height: 70px;
+  width: 800px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   align-content: center;
 }
-.home header .logo {
+header .logo {
   width: 62%;
+}
+.home .headline {
+  border-bottom: 3px dashed #ccc;
+  padding: 0 0 10px 0;
+}
+.home .headline .headline-img {
+  margin-bottom: 20px;
 }
 .home .content-section {
   margin: 30px 0;
@@ -247,4 +258,13 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .destination .btn {
+  width: 90%;
+  background: teal;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 1.3rem;
+  color: white;
 }
